@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="436" viewBox="0 0 87 436">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 400px;
+        font-family: AdobeArabic-Bold, Adobe Arabic;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="i" class="cls-1" transform="translate(0 299)"><tspan x="0" y="0">i</tspan></text>
+</svg>

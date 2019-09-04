@@ -1,0 +1,41 @@
+body
+{
+    transition: 1s;
+    background-color: rgb(20, 20, 20);
+    color: rgb(220, 220, 220);
+}
+
+hr
+{
+    transition: 1s;
+    border-color: white;
+}
+
+.form-control
+{
+    transition: 1s;
+    background-color: rgb(30, 30, 30);
+    color: rgb(200, 200, 200);
+}
+
+.form-control:focus
+{
+    transition: 1s;
+    background-color: rgb(50, 50, 50);
+    color: rgb(200, 200, 200);
+}
+
+/* Turn off arrows on number input */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button 
+{ 
+    transition: 1s;
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+#toggleButton
+{
+    transition: 1s;
+    background-color: aliceblue !important;
+}

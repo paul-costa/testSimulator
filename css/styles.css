@@ -1,0 +1,126 @@
+
+
+/* Dark Mode */
+body
+{
+    transition: 1s;
+}
+
+hr
+{
+    transition: 1s;
+}
+
+.form-control
+{
+    transition: 1s;
+}
+
+.form-control:focus
+{
+    transition: 1s;
+}
+
+/* Turn off arrows on number input */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button 
+{ 
+    transition: 1s;
+}
+
+#toggleButton
+{
+    transition: 1s;
+}
+
+#toggleButtonContainer
+{
+    z-index: 5;
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+}
+
+#toggleButton
+{
+    transition: 1s;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    background-color: slategray;
+}
+/* Dark Mode */
+
+
+
+
+
+
+
+
+
+
+
+#excludeContainer
+{
+    height: 80%;
+}
+
+#excludedQuestionsID
+{
+    overflow: auto;
+}
+
+option 
+{
+    scroll-behavior: smooth;
+    white-space: normal;
+    margin-bottom: 6pt;
+}
+
+.answerField
+{
+    resize: none;
+}
+
+.questionListItem, .answerList
+{
+    text-align: justify;
+    margin-bottom: 1em;
+    height: auto;
+}
+
+.fieldNotValid
+{
+    background-color: #ffb1b160;
+}
+
+
+#infoButton
+{
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+
+    background-image: url('./info.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.infoButtonHidden
+{
+    transition: 1s;
+    opacity: 0;
+}
+
+#infoField
+{
+    transition: 1s;
+    border: 1px solid lightgray;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+
+    border-radius: 1em;
+}
