@@ -58,8 +58,8 @@ function landingPageVue()
                 <div class="container">
                 <div class="row mt-5">
                 <div class="col-12 text-center">
-                    <h3>Willkommen zum Hiko Helper v1.1</h3>
-                    <h5>(prod. by Viktoria Costa)</h5>
+                    <h3>Willkommen zum Test Simulator</h3>
+                    <h5>(prod. by PCP)</h5>
                 </div>
                 </div>
         
